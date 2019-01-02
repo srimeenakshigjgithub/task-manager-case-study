@@ -6,8 +6,9 @@ import java.util.List;
 
 public interface TaskManagerService {
 	
-	public List<Tasks> fetchTasks();
-	public void updateTask(Tasks task);
-	public Tasks getTask(Long taskID);
+	public void addTask(Tasks task);
+	public List<Tasks> deleteTask(int task_id);
+	public void editTask(Tasks task);
+	public List<Tasks> getAllTasks();
 
 }
