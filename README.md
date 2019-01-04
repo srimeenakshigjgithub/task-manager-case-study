@@ -21,3 +21,4 @@ task-manager-server - service code
 task-manager-web - Angular UI code
 task-manager-scripts - table scripts to run in DB
 Jenkins file - Jenkins details.
+Docker file - docker details.
